@@ -1,3 +1,0 @@
-select * from (Orders inner join Employees
-        on Orders.EmployeeID = Employees.EmployeeID)
-        order by Orders.OrderID
