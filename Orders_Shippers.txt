@@ -1,3 +1,0 @@
-select * from (Orders inner join Shippers
-        on Orders.ShipVia = Shippers.ShipperID)
-        order by Orders.OrderID
