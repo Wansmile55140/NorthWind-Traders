@@ -1,5 +1,0 @@
-select * from (Order Details inner join Products
-        on Order Details.Productid = Products.Productid)
-        inner join Suppliers
-        on Products.SupplierID = Suppliers.SupplierID
-        order by Products.ProductID
