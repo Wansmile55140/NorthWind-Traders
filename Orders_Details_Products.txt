@@ -1,3 +1,0 @@
-select * from (Order Details inner join Products
-        on Order Details.Productid = Products.Productid)
-        order by Order Details.Productid
