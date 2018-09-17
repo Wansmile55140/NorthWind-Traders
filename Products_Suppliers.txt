@@ -1,3 +1,0 @@
-select * from (Products inner join Suppliers
-        on Products.SupplierID = Suppliers.SupplierID)
-        order by products.Productid
