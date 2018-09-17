@@ -1,3 +1,0 @@
-select * from (categories inner join products
-        on categories.categoryid = products.categoryid)
-        order by products.categoryid
