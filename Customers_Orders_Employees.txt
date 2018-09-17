@@ -1,5 +1,0 @@
-select * from (Customers inner join Orders
-        on Customers.CustomerID = Orders.CustomerID)
-        inner join Employees
-        on Orders.EmployeeID= Employees.EmployeeID
-        order by Orders.OrderID
